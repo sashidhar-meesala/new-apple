@@ -1,0 +1,25 @@
+.iphone11pro{
+    background-color: black;
+    display: block;
+    padding:1rem;
+    color: azure;
+    text-align: center;
+
+}
+.iphone11{
+    
+    text-align: center;
+    display: block;
+    
+    padding:1rem;
+    color: black;
+
+}
+
+.iwatch5{
+    text-align: center;
+    display: block;
+    
+    padding:1rem;
+    color: black;
+}
