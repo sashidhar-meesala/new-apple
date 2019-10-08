@@ -1,25 +1,151 @@
-.iphone11pro{
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 100rem;
+    margin:  auto;
+}
+.menu-top
+{
     background-color: black;
-    display: block;
-    padding:1rem;
-    color: azure;
+    color: white;
+    border-width: 0 0 0.1rem 0;
+    border-style: solid; 
+    border-color: gray;
+}
+
+.head-logos
+{
     text-align: center;
 
 }
-.iphone11{
-    
-    text-align: center;
-    display: block;
-    
-    padding:1rem;
-    color: black;
+
+.logo-lines
+{
+    width: 1rem;
+    border-width: 0.1rem 0 0.1rem 0;
+    border-style: solid; 
+    border-color:white;
+    padding:0.2rem;
+}
+.spacing
+{
+    display: inline-block;
+    width: 12rem;
+    padding: 0.5rem 1rem;
+}
+
+.search-bar
+{
+    background-image: url(../img/search.svg);
+    background-color: dimgrey;
+    background-repeat: no-repeat;
+    background-position: 0.5rem -0.4rem;
+    border-style: none;
+    line-height: 2em;
+    margin: 1em;
+    margin-right: 5em;
+    border-radius: 0.3em;
 
 }
 
-.iwatch5{
-    text-align: center;
+.content-li-section
+{
+    font-weight: lighter;
+    background-color: black;
+    color:white;
+    padding: 1rem 1rem;
+}
+
+.content-li
+{
+    margin: 0 2rem;
+    margin-bottom: 0.5rem;
+    padding:0.5rem;
+    border-bottom: 0.07rem solid grey;
+}
+
+.iphone-pro
+{
+    text-align: center; 
+    background-image: url(../img/iphone11pro.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 60vh;
+}
+
+.iphone-11
+{
+    text-align: center; 
+    background-image: url(../img/iphone11.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color:black;
+    min-height: 75vh;
+    padding-top: 3em;
+}
+.watch img{
     display: block;
-    
-    padding:1rem;
-    color: black;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.watch
+{ 
+    background-image: url(../img/applewatch.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color:black;
+    min-height: 80vh;
+}
+
+.watch-logo
+{
+    padding:5rem;
+}
+
+/* content section style */
+
+.product
+{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.description
+{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    padding: 0 3rem;
+}
+
+.zero-down
+{
+    font-weight: lighter;
+    font-size: 0.7;
+    color: grey;
+    padding: 0.7rem;
+}
+
+.info
+{
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(107, 159, 255);
+}
+
+.a-space
+{
+    display:inline-block;
+    width: 1.5rem;
+}
+
+.pad
+{
+    padding-bottom: 1rem;
 }
